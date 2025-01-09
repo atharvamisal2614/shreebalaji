@@ -39,7 +39,7 @@ function Navbar() {
                         Gallery
                     </Link>
                     <Link
-                        href={'/'}
+                        href='/contact'
                         className="mr-5 font-bold text-gray-600 hover:text-sky-500 transition duration-300"
                     >
                         Contact Us
