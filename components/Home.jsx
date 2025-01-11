@@ -2,12 +2,12 @@ import Image from "next/image";
 
 function HomePage() {
     return (
-        <div>
+        <div data-aos="fade-up">
             {/* Hero Section */}
-            <section className="relative w-full h-[50vh] md:h-[80vh]">
+            <section className="relative w-full h-[50vh] md:h-[90vh]">
                 {/* Background Image */}
                 <Image
-                    src="/images/import-export-home-1.avif"
+                    src="/machine.png"
                     alt="Background"
                     layout="fill"
                     objectFit="cover"

@@ -6,7 +6,7 @@ const Aboutus = () => {
       <div className="flex flex-wrap lg:flex-nowrap">
         {/* Image Section */}
         <div className="w-full lg:w-1/2 flex justify-center">
-          <div className="relative w-full h-[35vh]  md:h-[50vh] overflow-hidden">
+          <div data-aos="fade-up" className="relative w-full h-[35vh]  md:h-[50vh] overflow-hidden ">
             <Image
               src="/images/about-us-main-1.png"
               alt="About us main image"
@@ -17,8 +17,8 @@ const Aboutus = () => {
           </div>
         </div>
         {/* Text Section */}
-        <div className="w-full lg:w-1/2 flex flex-col justify-start md:py-8 px-6">
-          <h2 className="text-[18px] md:text-3xl text-sky-500 font-bold mb-4 italic">
+        <div data-aos="fade-up" className="w-full lg:w-1/2 flex flex-col justify-start md:py-8 px-6">
+          <h2 className="text-[18px] md:text-3xl text-yellow-500 font-bold mb-4 italic">
             Welcome to Shree Balaji Exim
           </h2>
           <p className="mb-4 text-customGray text-justify">

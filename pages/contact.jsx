@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
-
 const ContactUs = () => {
-
   const [formData,setFormData] = useState({
     name: "", 
     email:"", 
@@ -10,15 +8,15 @@ const ContactUs = () => {
   })
   const [status,setStatus] = useState("");
 
-  const handleChange = (e) =>{
-    const {name,value} = e.target;
-    setFormData({...formData,
-      [name]:value})
-  }
+  const handleChange = (e) => {
+    const {name, value} = e.target;
+    setFormData({...formData, 
+      [name]:value}
+    )}
 
-  const handleSubmit = async (e) =>{
+  const handleSubmit = async(e) => {
     e.preventDefault();
-    setStatus("Submitting your query, please wait...")
+    setStatus("Submitting your query, please wait...⏳")
 
     try {
       const response = await fetch('/api/sendEmail', {
@@ -29,20 +27,21 @@ const ContactUs = () => {
         body:JSON.stringify(formData)
       })
       if(response.ok) {
-        setFormData({name:"", email:"", phone:"", message:""})
-        setStatus("FormSubmitted Successfully")
+        setFormData({name:"", email:"", phone:"", message:""});
+        setStatus("Message Sent Successfully✅");
+        setTimeout(()=>{
+          setStatus("");
+        },3000)
+      } else {
+        setFormData({name:"", email:"", phone:"", message:""});
+        setStatus("Error sending message")
       }
-      else {
-        setFormData({name:"", email:"", phone:"", message:""})
-        setStatus("An Error Occured")
-      }
-    } catch(err) {
-      setStatus("Error occured")
+    } catch {
+      setStatus("An Unknown Error Occured")
     }
-  }
-
+  } 
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
+    <div data-aos="fade-up" className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
       <div className="container mx-auto grid md:grid-cols-2 gap-6 shadow-lg rounded-lg overflow-hidden bg-white">
         {/* Left Section */}
         <div className="p-8 flex flex-col justify-center">
@@ -113,7 +112,14 @@ const ContactUs = () => {
               Send
             </button>
           </form>
-          {status && <p>{status}</p>}
+          {
+            status && 
+            <p className={`text-lg mt-4 
+            ${status.includes("Submitting") ? "text-black" : 
+            status.includes("Successfully") ? "text-green-500" : 
+            "text-red-500"
+            }`}>{status}</p>
+          }
         </div>
 
         {/* Right Section */}
