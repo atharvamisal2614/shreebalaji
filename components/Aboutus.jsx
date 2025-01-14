@@ -9,7 +9,7 @@ const Aboutus = () => {
           <div className="w-full lg:w-1/2 flex justify-center">
             <div
               data-aos="fade-up"
-              className="relative w-full h-[35vh] md:h-[50vh] overflow-hidden"
+              className="relative w-full h-[35vh] md:h-[50vh] mt-5 overflow-hidden"
             >
               <Image
                 src="/images/about-us-main-1.png"

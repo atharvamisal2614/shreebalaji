@@ -19,7 +19,7 @@ function Navbar() {
                         strokeLinecap="round"
                         strokeLinejoin="round"
                         strokeWidth="2"
-                        className="w-10 h-10 text-white p-2 bg-blue-600 rounded-full"
+                        className="w-10 h-10 text-white p-2 bg-sky-600 rounded-full"
                         viewBox="0 0 24 24"
                     >
                         <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
@@ -30,7 +30,7 @@ function Navbar() {
                     <Link
                         href="/"
                         className={`mr-5 font-bold ${
-                            router.pathname === "/" ? "text-blue-500" : "text-gray-600"
+                            router.pathname === "/" ? "text-sky-500" : "text-gray-600"
                         } hover:text-sky-500 transition duration-300`}
                     >
                         Home
@@ -38,7 +38,7 @@ function Navbar() {
                     <Link
                         href="/about"
                         className={`mr-5 font-bold ${
-                            router.pathname === "/about" ? "text-blue-500" : "text-gray-600"
+                            router.pathname === "/about" ? "text-sky-500" : "text-gray-600"
                         } hover:text-sky-500 transition duration-300`}
                     >
                         About Us
@@ -46,7 +46,7 @@ function Navbar() {
                     <Link
                         href="/gallery"
                         className={`mr-5 font-bold ${
-                            router.pathname === "/gallery" ? "text-blue-500" : "text-gray-600"
+                            router.pathname === "/gallery" ? "text-sky-500" : "text-gray-600"
                         } hover:text-sky-500 transition duration-300`}
                     >
                         Gallery
@@ -54,7 +54,7 @@ function Navbar() {
                     <Link
                         href="/contact"
                         className={`mr-5 font-bold ${
-                            router.pathname === "/contact" ? "text-blue-500" : "text-gray-600"
+                            router.pathname === "/contact" ? "text-sky-500" : "text-gray-600"
                         } hover:text-sky-500 transition duration-300`}
                     >
                         Contact Us
@@ -62,7 +62,7 @@ function Navbar() {
                 </nav>
                 <Link href={'https://wa.me/917499837102'}>
                 <button
-                    className="inline-flex items-center bg-transparent border border-blue-500 text-blue-500 font-bold py-2 px-4 focus:outline-none hover:bg-blue-500 hover:text-white rounded-full transition duration-300 text-base mt-4 md:mt-0"
+                    className="inline-flex items-center bg-transparent border border-sky-500 text-sky-500 font-bold py-2 px-4 focus:outline-none hover:bg-sky-500 hover:text-white rounded-full transition duration-300 text-base mt-4 md:mt-0"
                 >
                     Get a Quote
                     <svg
