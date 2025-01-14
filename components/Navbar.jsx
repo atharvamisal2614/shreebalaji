@@ -9,9 +9,11 @@ function Navbar() {
             <div
                 data-aos="fade-up"
                 className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
-            >
+            >   
+            <Link href='/' >
                <Image src='/logo-home.png' width={200} height={200} alt="Logo" 
                 />
+            </Link>
                 <nav className="md:ml-auto md:mr-auto flex flex-wrap text-lg items-center justify-center gap-6">
                     <Link
                         href="/"

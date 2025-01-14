@@ -79,7 +79,7 @@ export default function App({ Component, pageProps }) {
               width={65}
               height={65}
               alt="WhatsApp"
-              priority
+              // priority
             />
           </Link>
         </div>

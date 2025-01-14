@@ -37,7 +37,7 @@ const ContactUs = () => {
         }, 3000)
       } else {
         setFormData({ name: "", email: "", phone: "", message: "" });
-        setStatus("Error sending message")
+        setStatus("Please Check Your Internet Connection!")
       }
     } catch {
       setStatus("An Unknown Error Occured")
