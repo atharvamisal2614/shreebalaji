@@ -17,8 +17,7 @@ const ContactUs = () => {
       ...formData,
       [name]: value
     }
-    )
-  }
+    )}
   const handleSubmit = async (e) => {
     e.preventDefault();
     setStatus("Submitting your query, please wait...⏳")
@@ -116,10 +115,10 @@ const ContactUs = () => {
           {status && (
             <p
               className={`text-lg mt-4 ${status.includes("Submitting")
-                  ? "text-black"
-                  : status.includes("Successfully")
-                    ? "text-green-500"
-                    : "text-red-500"
+                ? "text-black"
+                : status.includes("Successfully")
+                  ? "text-green-500"
+                  : "text-red-500"
                 }`}
             >
               {status}

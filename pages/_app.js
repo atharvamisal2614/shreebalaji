@@ -67,7 +67,7 @@ export default function App({ Component, pageProps }) {
         {/* Scroll-to-top button */}
         <div className="fixed hover:cursor-pointer bottom-24 z-50 right-5">
           <button onClick={handleScrollToTop}>
-            <FaArrowCircleUp className="text-customRed rounded-full border-customBlue bg-cuborder-customBlue" size={50} />
+            <FaArrowCircleUp className="text-customRed rounded-full border-customBlue bg-customBlue" size={50} />
           </button>
         </div>
 
