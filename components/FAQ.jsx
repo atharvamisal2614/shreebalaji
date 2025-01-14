@@ -25,9 +25,9 @@ const FAQ = () => {
     },
   ];
   return (
-    <div className="w-full py-12 bg-sky-50">
+    <div data-aos="fade-up" className="w-full py-12 bg-sky-50">
       <div className="text-center mb-8">
-        <h1 className="text-2xl text-customOrange md:text-3xl mb-2 text-customRed font-serif tracking-wide">
+        <h1 className="text-2xl text-customOrange md:text-3xl mb-2 font-serif tracking-wide">
           Frequently Asked Questions
         </h1>
         <h2 className="text-md md:text-lg font-medium text-gray-800 font-serif tracking-widest">

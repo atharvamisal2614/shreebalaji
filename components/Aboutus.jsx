@@ -22,7 +22,7 @@ const Aboutus = () => {
             data-aos="fade-up"
             className="w-full lg:w-1/2 flex flex-col justify-start md:py-8 px-6"
           >
-            <h2 className="text-2xl md:text-3xl text-customOrange mt-8 md:mt-0 font-bold mb-4 italic">
+            <h2 className="text-2xl md:text-3xl text-customOrange mt-8 md:mt-0  mb-4 font-serif italic">
               Welcome to Shree Balaji Exim
             </h2>
             <p className="mb-4 text-customGray text-justify">

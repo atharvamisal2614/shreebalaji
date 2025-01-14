@@ -5,7 +5,7 @@ export default function WhyUs() {
     <div data-aos="fade-up" className="bg-sky-50 py-12">
       <div className="max-w-7xl mx-auto px-6 md:px-12 flex flex-col md:flex-row items-center justify-between">
         <div className="md:w-1/2 text-center md:text-left mb-8 md:mb-0">
-          <h2 className="text-2xl md:text-3xl font-semibold text-customOrange mb-4">Why Us?</h2>
+          <h2 className="text-2xl md:text-3xl italic font-serif text-customOrange mb-4">Why Us?</h2>
           <p className="text-lg text-gray-700 text-justify">
             Shree Balaji Exim stands as more than just another business:
             It stands as an embodiment of quality, innovation, and providing

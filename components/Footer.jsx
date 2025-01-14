@@ -55,7 +55,7 @@ export default function Footer() {
           </div>
         </div>
         <div  className="mt-10 text-center">
-          <p className="text-sm">&copy; {new Date().getFullYear()} Shree Balaji Exim. All rights reserved.</p>
+          <p className="text-sm italic">&copy; {new Date().getFullYear()} Shree Balaji Exim. All rights reserved.</p>
         </div>
       </div>
     </footer>

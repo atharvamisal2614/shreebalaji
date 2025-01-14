@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div data-aos="fade-up" className="min-h-screen bg-sky-50 flex items-center justify-center">
       <div className="container mx-auto p-4">
-        <h1 className="text-2xl md:text-3xl text-customOrange font-bold text-center italic mb-6">Our Products</h1>
+        <h1 className="text-2xl md:text-3xl text-customOrange  font-serif text-center italic mb-6">Our Products</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-20 gap-4">
           {products.map((product) => (
             <div

@@ -17,10 +17,11 @@ const ContactUs = () => {
       ...formData,
       [name]: value
     }
-    )}
+    )
+  }
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setStatus("Submitting your query, please wait...⏳")
+    setStatus("Submitting your query, please wait...")
     try {
       const response = await fetch('/api/sendEmail', {
         method: 'POST',
@@ -32,22 +33,26 @@ const ContactUs = () => {
       if (response.ok) {
         setFormData({ name: "", email: "", phone: "", message: "" });
         setStatus("Message Sent Successfully✅");
+        console.log("Message sent to Owner Email")
         setTimeout(() => {
           setStatus("");
         }, 3000)
       } else {
         setFormData({ name: "", email: "", phone: "", message: "" });
         setStatus("Please Check Your Internet Connection!")
+        setTimeout(() => {
+          setStatus("");
+        }, 3000)
       }
     } catch {
-      setStatus("An Unknown Error Occured")
+      setStatus("An Unknown Error Occured, Please Try After Sometime")
     }
   }
   return (
     <div className="bg-sky-50 min-h-screen flex flex-col items-center justify-center p-4">
       <div className="container mx-auto grid md:grid-cols-2 gap-6 overflow-hidden bg-sky-50">
         <div className="p-8 flex flex-col bg-sky-50 justify-center">
-          <h1 className="text-3xl font-bold text-customBlue mb-4">Contact Us</h1>
+          <h1 className="text-3xl  text-customBlue mb-4 font-serif">Contact Us</h1>
           <p className="text-gray-600 mb-6">
             We would love to hear from you. Please fill out the form below to get in touch with us.
           </p>
@@ -112,7 +117,7 @@ const ContactUs = () => {
               Send
             </button>
           </form>
-          {status && (
+          {/* {status && (
             <p
               className={`text-lg mt-4 ${status.includes("Submitting")
                 ? "text-black"
@@ -123,7 +128,28 @@ const ContactUs = () => {
             >
               {status}
             </p>
+          )} */}
+
+
+          {status && (
+            <div className="text-lg mt-4 flex items-center space-x-2">
+              {status.includes("Submitting") && (
+                <div className="animate-spin inline-block w-5 h-5 border-4 border-customBlue border-t-transparent rounded-full"></div>
+              )}
+              <p
+                className={`${status.includes("Submitting")
+                    ? "text-black"
+                    : status.includes("Successfully")
+                      ? "text-green-500"
+                      : "text-red-500"
+                  }`}
+              >
+                {status}
+              </p>
+            </div>
           )}
+
+
         </div>
         <div className="p-8 bg-sky-50 flex flex-col justify-center items-center space-y-6">
           <div className="flex flex-col items-center">
