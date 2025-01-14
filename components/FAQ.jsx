@@ -10,36 +10,24 @@ const FAQ = () => {
       answer:
         "We specialize in exporting construction machinery like JCB, Crane, Concrete Mixer and many more, meet global demands.",
     },
-    {
-      question: "Which countries do you ship heavy machinery to?",
-      answer:
-        "We export to regions across 100+ countries like USA, China, Netherland, Tunisia, Singapore, Vietnam adhering to the import regulations of each destination in country.",
-    },
+  
     {
       question: "Can you assist with customizations or specific machinery requirements?",
       answer:
         "Yes, we work closely with manufacturers to offer tailored solutions and ensure the machinery meets your specific project needs.",
     },
-    {
-      question: "What documents are provided for heavy machinery exports?",
-      answer:
-        "We provide invoices, packing lists, certificates of origin, inspection certificates, and any other compliance documentation required for customs clearance.",
-    },
-    {
-      question: "What is your shipping and delivery process for heavy machinery?",
-      answer:
-        "We offer end-to-end logistics solutions, including safe packaging, coordination with shipping lines, and real-time tracking to ensure timely delivery.",
-    },
+    
+    
     {
       question: "How can I place an order or request a quotation?",
       answer:
-        "You can contact us through our official website or sales team to discuss your requirements. We will provide detailed quotations and assistance throughout the order process.",
+        "You can contact us through our official website in Contact Us section and fill up form to discuss your requirements. We will provide detailed quotations and assistance throughout the order process.",
     },
   ];
   return (
     <div className="w-full py-12 bg-sky-50">
       <div className="text-center mb-8">
-        <h1 className="text-2xl text-yellow-500 md:text-4xl mb-2 text-customRed font-serif tracking-wide">
+        <h1 className="text-2xl text-customOrange md:text-3xl mb-2 text-customRed font-serif tracking-wide">
           Frequently Asked Questions
         </h1>
         <h2 className="text-md md:text-lg font-medium text-gray-800 font-serif tracking-widest">

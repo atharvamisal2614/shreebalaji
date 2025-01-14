@@ -3,7 +3,6 @@ import HomePage from "@/components/Home";
 import WhyUs from "@/components/Whyus";
 import Ourproducts from "@/components/Ourproducts";
 import FAQ from "@/components/FAQ";
-
 export default function Home() {
   return (
     <>
@@ -11,9 +10,7 @@ export default function Home() {
       <Aboutus />
       <WhyUs />
       <Ourproducts />
-    <FAQ />
-  
-   
+      <FAQ />
     </>
   );
 }

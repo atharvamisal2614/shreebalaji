@@ -48,7 +48,7 @@ const ContactUs = () => {
     <div className="bg-sky-50 min-h-screen flex flex-col items-center justify-center p-4">
       <div className="container mx-auto grid md:grid-cols-2 gap-6 overflow-hidden bg-sky-50">
         <div className="p-8 flex flex-col bg-sky-50 justify-center">
-          <h1 className="text-3xl font-bold text-sky-500 mb-4">Contact Us</h1>
+          <h1 className="text-3xl font-bold text-customBlue mb-4">Contact Us</h1>
           <p className="text-gray-600 mb-6">
             We would love to hear from you. Please fill out the form below to get in touch with us.
           </p>
@@ -62,7 +62,7 @@ const ContactUs = () => {
                 name="name"
                 value={formData.name}
                 required
-                className="w-full bg-sky-50 p-2 border rounded-md focus:ring-2 focus:ring-sky-500 outline-none"
+                className="w-full bg-sky-50 p-2 border rounded-md focus:ring-2 focus:ring-customBlue outline-none"
                 placeholder="Your Name"
               />
             </div>
@@ -75,7 +75,7 @@ const ContactUs = () => {
                 name="email"
                 value={formData.email}
                 required
-                className="w-full bg-sky-50 p-2 border rounded-md focus:ring-2 focus:ring-sky-500 outline-none"
+                className="w-full bg-sky-50 p-2 border rounded-md focus:ring-2 focus:ring-customBlue outline-none"
                 placeholder="Your Email"
               />
             </div>
@@ -88,7 +88,7 @@ const ContactUs = () => {
                 name="phone"
                 value={formData.phone}
                 required
-                className="w-full bg-sky-50 p-2 border rounded-md focus:ring-2 focus:ring-sky-500 outline-none"
+                className="w-full bg-sky-50 p-2 border rounded-md focus:ring-2 focus:ring-customBlue outline-none"
                 placeholder="Your Phone Number"
               />
             </div>
@@ -101,14 +101,14 @@ const ContactUs = () => {
                 name="message"
                 value={formData.message}
                 required
-                className="w-full bg-sky-50 p-2 border rounded-md focus:ring-2 focus:ring-sky-500 outline-none"
+                className="w-full bg-sky-50 p-2 border rounded-md focus:ring-2 focus:ring-customBlue outline-none"
                 placeholder="Your Message"
               ></textarea>
             </div>
 
             <button
               type="submit"
-              className="w-full py-2 text-white bg-blue-500 rounded-md hover:bg-blue-600 transition-all"
+              className="w-full py-2 text-white bg-customBlue rounded-md hover:bg-teal-600 transition-all"
             >
               Send
             </button>
@@ -128,8 +128,8 @@ const ContactUs = () => {
         </div>
         <div className="p-8 bg-sky-50 flex flex-col justify-center items-center space-y-6">
           <div className="flex flex-col items-center">
-            <div className="text-sky-500 mb-2">
-              <FaMapMarkerAlt size={50} className="text-sky-500" />
+            <div className="text-customBlue mb-2">
+              <FaMapMarkerAlt size={50} className="text-custring-customBlue" />
             </div>
             <div className="text-center">
               <h2 className="text-lg font-bold">Our Location</h2>
@@ -137,17 +137,17 @@ const ContactUs = () => {
             </div>
           </div>
           <div className="flex flex-col items-center">
-            <div className="text-sky-500 mb-2">
-              <IoMdCall size={50} className="text-sky-500" />
+            <div className="text-customBlue mb-2">
+              <IoMdCall size={50} className="text-custring-customBlue" />
             </div>
             <div className="text-center">
               <h2 className="text-lg font-bold ">Call Us</h2>
-              <Link href={'tel:+917499837102'} className='text-gray-600'>7499837102</Link>
+              <Link href={'tel:+917499837102'} className='text-gray-600'>74998 37102</Link>
             </div>
           </div>
           <div className="flex flex-col items-center">
-            <div className="text-sky-500 mb-2">
-              <SiGmail size={50} className="text-sky-500" />
+            <div className="text-customBlue mb-2">
+              <SiGmail size={50} className="text-custring-customBlue" />
             </div>
             <div className="text-center">
               <h2 className="text-lg font-bold">Email Us</h2>
