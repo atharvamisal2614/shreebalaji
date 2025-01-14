@@ -33,8 +33,8 @@ const Gallery = () => {
         <div key={i} className="bg-sky-50 shadow-lg rounded-xl overflow-hidden hover:shadow-2xl transition-shadow duration-300">
           <Image src={image.src} alt={image.title} width={1000} height={1000} className="w-full h-80 md:h-96 object-cover" />
           <div className="p-5">
-            <h3 className="text-lg font-bold text-gray-800 mb-2">{image.title}</h3>
-            <p className="text-sm text-gray-600">{image.description}</p>
+            <h3 className="text-lg font-bold text-customBlue mb-2">{image.title}</h3>
+            <p className="text-sm text-gray-800">{image.description}</p>
           </div>
         </div>
       ))}

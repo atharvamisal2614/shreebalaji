@@ -6,10 +6,10 @@ export default function AboutUsSection() {
         <div data-aos="fade-up" className="grid md:grid-cols-2 gap-8 items-center">
           <div>
             <h1 className="text-2xl md:text-3xl italic text-customOrange mb-4">About Us</h1>
-            <p className="text-gray-600 text-lg ">
+            <p className="text-gray-600 text-justify text-lg ">
               Rammdas Narayanrao Banginwar is a pioneering leader and a notable name in the world
               of exports and imports.Over the last 25 years, he has gained experience in
-              international trade. Rammdas has revolutionized how companies approach
+              international trade. Rammdas has revolutionized how companies has approach
               international markets.
               As chief executive officer of Shree Balaji EXIM, a world-renowned company
               specialising in heavy construction equipment, Rammdas has established a tradition of innovation and excellence.

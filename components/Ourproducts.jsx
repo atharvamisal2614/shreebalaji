@@ -24,14 +24,14 @@ export default function Home() {
                 className="w-full h-96 object-cover"
               />
               <div className="p-4">
-                <h2 className="text-xl text-customOrange text-center font-semibold">{product.name}</h2>
+                <h2 className="text-xl text-customBlue text-center font-semibold">{product.name}</h2>
               </div>
             </div>
           ))}
         </div>
         <div className="flex justify-center mt-6">
           <Link href={'/gallery'}
-            className="text-customOrange  hover:text-orange-600 font-semibold text-lg">
+            className="text-customBlue  hover:text-teal-600 font-semibold text-lg">
             View More
           </Link>
         </div>
