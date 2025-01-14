@@ -1,10 +1,9 @@
-// import { FaAward, FaUserCheck, FaClock, FaUsers } from "react-icons/fa";
 import Image from "next/image";
 export default function AboutUsSection() {
   return (
     <section className="bg-sky-50 py-16">
-      <div data-aos="fade-up" className="max-w-4xl mx-auto px-5">
-        <div className="grid md:grid-cols-2 gap-8 items-center">
+      <div className="max-w-4xl mx-auto px-5">
+        <div data-aos="fade-up" className="grid md:grid-cols-2 gap-8 items-center">
           <div>
             <h1 className="text-2xl md:text-4xl font-bold italic text-yellow-500 mb-4">About Us</h1>
             <p className="text-gray-600 text-lg ">
@@ -24,9 +23,7 @@ export default function AboutUsSection() {
             />
           </div>
         </div>
-
-        {/* Mission Section */}
-        <div className="grid md:grid-cols-2 gap-8 items-center mt-16">
+        <div data-aos="fade-up" className="grid md:grid-cols-2 gap-8 items-center mt-16">
           <div>
             <img
               src="/global-reach.webp"
@@ -50,9 +47,7 @@ export default function AboutUsSection() {
             </p>
           </div>
         </div>
-
-        {/* Our Story Section */}
-        <div className="grid md:grid-cols-2 gap-8 items-center mt-16">
+        <div data-aos="fade-up" className="grid md:grid-cols-2 gap-8 items-center mt-16">
           <div>
             <h2 className="text-2xl md:text-4xl font-bold text-yellow-500 mb-4 italic">Our Success Story</h2>
             <p className="text-gray-600 text-justify text-lg">
@@ -62,9 +57,6 @@ export default function AboutUsSection() {
             Through perseverance, innovation, and a customer-focused approach, we have extended our reach to over 100+ 
             countries by 2024. This milestone reflects our passion for delivering quality and building lasting partnerships
             across the globe. 
-            </p>
-            <p className="text-gray-600 text-lg mt-4">
-      
             </p>
           </div>
           <div>

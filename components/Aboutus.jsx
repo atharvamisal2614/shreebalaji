@@ -1,11 +1,9 @@
 import Image from 'next/image';
-
 const Aboutus = () => {
   return (
     <section className="bg-sky-50 w-full">
       <div className="container mx-auto  py-12">
         <div className="flex flex-wrap lg:flex-nowrap">
-          {/* Image Section */}
           <div className="w-full lg:w-1/2 flex justify-center">
             <div
               data-aos="fade-up"
@@ -20,7 +18,6 @@ const Aboutus = () => {
               />
             </div>
           </div>
-          {/* Text Section */}
           <div
             data-aos="fade-up"
             className="w-full lg:w-1/2 flex flex-col justify-start md:py-8 px-6"
@@ -30,18 +27,13 @@ const Aboutus = () => {
             </h2>
             <p className="mb-4 text-customGray text-justify">
             <span className='font-bold'>Shree Balaji EXIM</span>  - Building Excellence through the export of heavy construction machineries through out the world.
-
-
             </p>
             <p className="mb-4 text-customGray text-justify">
             Shree Balaji Group founded in 1960 by Shri N. G. Banaginwar, swiftly rose to prominence as one of India's leading trading firms.In 1990, the business entered a new era under the visionary leadership of CEO Rammdas Banaginwar. 
-
             </p>
             <p className="mb-4 text-customGray text-justify">
             Drawing on his unmatched expertise in the export-import trade, he established Export Import Business in 2001.
-Today, Shree Balaji Exim stands as a global leader, renowned for being a top eximpreneur of heavy building construction machinery throughout the world.
-
-
+            Today, Shree Balaji Exim stands as a global leader, renowned for being a top eximpreneur of heavy building construction machinery throughout the world.
             </p>
           </div>
         </div>

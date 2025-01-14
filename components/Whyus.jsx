@@ -4,18 +4,18 @@ export default function WhyUs() {
   return (
     <div data-aos="fade-up" className="bg-sky-50 py-12">
       <div className="max-w-7xl mx-auto px-6 md:px-12 flex flex-col md:flex-row items-center justify-between">
-        {/* Left Side: Heading and Paragraph */}
         <div className="md:w-1/2 text-center md:text-left mb-8 md:mb-0">
           <h2 className="text-2xl md:text-4xl font-semibold text-yellow-500 mb-4">Why Us?</h2>
           <p className="text-lg text-gray-700">
-         Shree Balaji Exim stands as more than just another business: It stands as an embodiment of quality, innovation, and providing domestic and international trade solutions. Headquartered in India, this global manufacturer delivers cutting-edge construction machinery explicitly designed to meet infrastructure project demands worldwide.
-
+            Shree Balaji Exim stands as more than just another business:
+            It stands as an embodiment of quality, innovation, and providing
+            domestic and international trade solutions. Headquartered in
+            India, this global manufacturer delivers cutting-edge
+            construction machinery explicitly designed to meet infrastructure
+            project demands worldwide.
           </p>
         </div>
-
-        {/* Right Side: Cards */}
         <div className="md:w-1/2 grid grid-cols-1 sm:grid-cols-2 gap-6">
-          {/* Card 1 */}
           <div className="flex items-center bg-white p-6 rounded-lg shadow-md">
             <FaAward className="text-blue-600 text-3xl mr-4" />
             <div>
@@ -25,8 +25,6 @@ export default function WhyUs() {
               </p>
             </div>
           </div>
-
-          {/* Card 2 */}
           <div className="flex items-center bg-white p-6 rounded-lg shadow-md">
             <FaThumbsUp className="text-blue-500 text-3xl mr-4" />
             <div>
@@ -36,8 +34,6 @@ export default function WhyUs() {
               </p>
             </div>
           </div>
-
-          {/* Card 3 */}
           <div className="flex items-center bg-white p-6 rounded-lg shadow-md">
             <FaClock className="text-blue-500 text-3xl mr-4" />
             <div>
@@ -47,8 +43,6 @@ export default function WhyUs() {
               </p>
             </div>
           </div>
-
-          {/* Card 4 */}
           <div className="flex items-center bg-white p-6 rounded-lg shadow-md">
             <FaUsers className="text-blue-600 text-3xl mr-4" />
             <div>

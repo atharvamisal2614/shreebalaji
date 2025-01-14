@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-
 const Gallery = () => {
   const images = [
     { src: "/images/asphalt-paver.jpg", title: "Asphalt Paver", description: "Used specifically in road building projects to evenly spread asphalt out over roadway surfaces for improved durability and a smooth driving experience for vehicles." },

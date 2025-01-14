@@ -1,11 +1,9 @@
 import React, { useState } from "react";
 const FAQ = () => {
   const [activeIndex, setActiveIndex] = useState(null);
-
   const toggleQuestion = (index) => {
     setActiveIndex(activeIndex === index ? null : index);
   };
-
   const faqData = [
     {
       question: "What types of heavy machinery do you export?",
@@ -38,7 +36,6 @@ const FAQ = () => {
         "You can contact us through our official website or sales team to discuss your requirements. We will provide detailed quotations and assistance throughout the order process.",
     },
   ];
-
   return (
     <div className="w-full py-12 bg-sky-50">
       <div className="text-center mb-8">

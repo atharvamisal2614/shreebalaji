@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import React from 'react';
-
 const products = [
   { id: 1, name: "Asphalt Paver", image: "/images/asphalt-paver.jpg" },
   { id: 2, name: "Backhoe Loader", image: "/images/backhoe-loader.jpg" },
@@ -8,9 +7,7 @@ const products = [
   { id: 4, name: "Compactor", image: "/images/compactor.jpeg" },
   { id: 5, name: "Concrete Mixer", image: "/images/concrete-mixer.jpg" },
   { id: 6, name: "Crane", image: "/images/crane.jpeg" },
-
 ];
-
 export default function Home() {
   return (
     <div data-aos="fade-up" className="min-h-screen bg-sky-50 flex items-center justify-center">
@@ -33,14 +30,12 @@ export default function Home() {
           ))}
         </div>
         <div className="flex justify-center mt-6">
-        <Link href={'/gallery'}
-         className="text-yellow-500  hover:text-yellow-600 font-semibold text-lg">
-          View More
-        </Link>
+          <Link href={'/gallery'}
+            className="text-yellow-500  hover:text-yellow-600 font-semibold text-lg">
+            View More
+          </Link>
+        </div>
       </div>
-      </div>
-      
     </div>
-    
   );
 }

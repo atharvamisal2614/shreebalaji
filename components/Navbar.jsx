@@ -3,8 +3,6 @@ import { useRouter } from "next/router";
 
 function Navbar() {
     const router = useRouter();
-
-
     return (
         <header className="bg-sky-50 text-gray-600 body-font">
             <div
@@ -82,5 +80,4 @@ function Navbar() {
         </header>
     );
 }
-
 export default Navbar;
