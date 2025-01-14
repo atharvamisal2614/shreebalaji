@@ -2,8 +2,8 @@ import Aboutus from "@/components/Aboutus";
 import HomePage from "@/components/Home";
 import WhyUs from "@/components/Whyus";
 import Ourproducts from "@/components/Ourproducts";
-import Testminolds from "@/components/Testminolds";
-import Footer from "@/components/Footer";
+import FAQ from "@/components/FAQ";
+
 export default function Home() {
   return (
     <>
@@ -11,7 +11,7 @@ export default function Home() {
       <Aboutus />
       <WhyUs />
       <Ourproducts />
-      <Testminolds />
+    <FAQ />
   
    
     </>

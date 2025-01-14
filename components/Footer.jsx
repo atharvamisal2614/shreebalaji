@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function Footer() {
   return (
     <footer data-aos="fade-up"
@@ -35,26 +36,28 @@ export default function Footer() {
           {/* Address Section */}
           <div>
             <h3 className="text-lg font-bold mb-2">Address</h3>
-            <p>123 Main Street</p>
-            <p>City, State, ZIP</p>
+            <p>801, IIEIM, World Trade Center</p>
+            <p>Kharadi, Pune</p>
           </div>
 
           {/* Contact Section */}
           <div>
             <h3 className="text-lg font-bold mb-2">Contact</h3>
-            <p>Phone: +1 (123) 456-7890</p>
-            <p>Support: +1 (987) 654-3210</p>
+            <Link href="tel:917499837102">
+              74998 37102
+            </Link>
+         
           </div>
 
           {/* Social Media Section */}
-          <div className="mt-6 md:mt-0">
+          {/* <div className="mt-6 md:mt-0">
             <h3 className="text-lg font-bold mb-2">Follow Us</h3>
             <div className="flex justify-center md:justify-start space-x-4">
               <a href="#" className="hover:text-blue-600">Facebook</a>
               <a href="#" className="hover:text-blue-600">Twitter</a>
               <a href="#" className="hover:text-blue-600">Instagram</a>
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* Footer Bottom */}

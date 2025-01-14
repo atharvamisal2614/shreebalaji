@@ -2,41 +2,39 @@ import Link from 'next/link';
 import React from 'react';
 
 const products = [
-  { id: 1, name: "Base Valve", image: "/images/base-valve.jpg" },
-  { id: 2, name: "Bearing Comet", image: "/images/bearing-comet.jpg" },
-  { id: 3, name: "Hand Pump Washer", image: "/images/hand-pump-washer.webp" },
-  { id: 4, name: "Head Sheet", image: "/images/head_sheet.jpg" },
-  { id: 5, name: "Industrial Valves", image: "/images/industrial-valves.jpg" },
-  { id: 6, name: "5 Hole Gaket ", image: "/images/five-hole-gasket.png" },
-  // { id: 7, name: "Flexible Drive Shaft", image: "/images/flexible-drive-shaft.webp" },
-  // { id: 8, name: "Jack Bolt", image: "images/jackbolt.jpg" },
-  // { id: 9, name: "Gasket Kit", image: "/images/gasket-kit.jpg" },
+  { id: 1, name: "Asphalt Paver", image: "/images/asphalt-paver.jpg" },
+  { id: 2, name: "Backhoe Loader", image: "/images/backhoe-loader.jpg" },
+  { id: 3, name: "Bulldozer", image: "/images/bulldozer.jpg" },
+  { id: 4, name: "Compactor", image: "/images/compactor.jpeg" },
+  { id: 5, name: "Concrete Mixer", image: "/images/concrete-mixer.jpg" },
+  { id: 6, name: "Crane", image: "/images/crane.jpeg" },
+
 ];
 
 export default function Home() {
   return (
-    <div data-aos="fade-up" className="min-h-screen flex items-center justify-center">
+    <div data-aos="fade-up" className="min-h-screen bg-sky-50 flex items-center justify-center">
       <div className="container mx-auto p-4">
         <h1 className="text-2xl md:text-4xl text-yellow-500 font-bold text-center italic mb-6">Our Products</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-20 gap-4">
           {products.map((product) => (
             <div
               key={product.id}
-              className="bg-white rounded-lg shadow-md  overflow-hidden">
+              className="bg-sky-50 rounded-lg shadow-md  overflow-hidden">
               <img
                 src={product.image}
                 alt={product.name}
                 className="w-full h-96 object-cover"
               />
               <div className="p-4">
-                <h2 className="text-xl text-center font-semibold">{product.name}</h2>
+                <h2 className="text-xl text-yellow-500 text-center font-semibold">{product.name}</h2>
               </div>
             </div>
           ))}
         </div>
         <div className="flex justify-center mt-6">
         <Link href={'/gallery'}
-         className="  text-yellow-500  hover:text-yellow-600 font-semibold text-lg">
+         className="text-yellow-500  hover:text-yellow-600 font-semibold text-lg">
           View More
         </Link>
       </div>

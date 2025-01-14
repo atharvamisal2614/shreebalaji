@@ -4,10 +4,10 @@ function HomePage() {
     return (
         <div data-aos="fade-up">
             {/* Hero Section */}
-            <section className="relative w-full h-[50vh] md:h-[90vh]">
+            <section className="relative w-full h-[70vh] md:h-[90vh]">
                 {/* Background Image */}
                 <Image
-                    src="/machine.png"
+                    src="/images/backhoe-loader.jpg"
                     alt="Background"
                     layout="fill"
                     objectFit="cover"
