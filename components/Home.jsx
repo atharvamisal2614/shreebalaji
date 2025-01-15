@@ -5,7 +5,7 @@ function HomePage() {
         <div data-aos="fade-up">
             <section className="relative w-full h-[70vh] md:h-[90vh]">
                 <Image
-                    src="/images/backhoe-loader.jpg"
+                    src="/images/JCB.jpg"
                     alt="Background"
                     layout="fill"
                     objectFit="cover"
