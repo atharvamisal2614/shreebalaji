@@ -35,14 +35,14 @@ export default function Footer() {
           </div>
           <div>
             <h3 className="text-lg font-bold mb-2">Address</h3>
-            <p>801, IIEIM, World Trade Center</p>
-            <p>Kharadi, Pune</p>
+            <p>801, Regus, Shree Balaji Exim,</p>
+            <p>World Trade Center, Kharadi, Pune</p>
           </div>
 
           <div>
             <h3 className="text-lg font-bold mb-2">Contact</h3>
             <Link href="tel:917499837102">
-              74998 37102
+              +91 74998 37102
             </Link>         
           </div>
           <div className="mt-6 md:mt-0">

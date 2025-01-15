@@ -7,7 +7,7 @@ export default function AboutUsSection() {
           <div>
             <h1 className="text-2xl md:text-3xl italic font-serif text-customOrange mb-4">About Us</h1>
             <p className="text-gray-600 text-justify text-lg ">
-              Rammdas Narayanrao Banginwar is a pioneering leader and a notable name in the world
+              Rammdas Banaginwar is a pioneering leader and a notable name in the world
               of exports and imports.Over the last 25 years, he has gained experience in
               international trade. Rammdas has revolutionized how companies has approach
               international markets.

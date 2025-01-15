@@ -2,8 +2,8 @@ import React from "react";
 import Image from "next/image";
 const Gallery = () => {
   const images = [
-    { src: "/images/asphalt-paver.jpg", title: "Asphalt Paver", description: "Used specifically in road building projects to evenly spread asphalt out over roadway surfaces for improved durability and a smooth driving experience for vehicles." },
-    { src: "/images/backhoe-loader.jpg", title: "Backhoe Loader", description: " Providing multifunctional capabilities, such as material handling with its loader bucket and backhoe digging capabilities, makes this machine perfect for diverse construction needs." },
+    { src: "/images/JCB.jpg", title: "JCB", description: " Providing multifunctional capabilities, such as material handling with its loader bucket and backhoe digging capabilities, makes this machine perfect for diverse construction needs." },
+    { src: "/images/concrete-pump.jpg", title: "Concrete Pump", description: "This machinery provides fast, precise transportation of concrete to hard-to-reach areas or elevated locations thereby optimizing construction efficiency." },
     { src: "/images/bulldozer.jpg", title: "Bulldozer", description: " Used extensively during site preparation, this powerful machine pushes, levels, and clears soil surfaces, creating smooth and even surfaces." },
     { src: "/images/compactor.jpeg", title: "Compactor", description: " Used to compress soil and other loose materials, this machine ensures stable foundations for construction projects." },
     { src: "/images/concrete-mixer.jpg", title: "Concrete Mixer", description: "Essential in construction projects of all sorts, the concrete mixer blends cement, sand gravel, and water into high-quality concrete for various jobs." },
@@ -22,7 +22,8 @@ const Gallery = () => {
     { src: "/images/articulated-dump-truck.avif", title: "Articulated Dump Truck", description: "Engineered specifically to handle off-road hauling of large loads efficiently across uneven terrains and remote sites, this truck makes short work of hauling large volumes." },
     { src: "/images/welding-machine.jpeg", title: "Wlding Machine", description: "Used to join metal components together and is widely utilized for structural steelwork repairs as well as various repair jobs in construction." },
     { src: "/images/wheel-loaders.jpg", title: "Wheel Loaders", description: "Great for moving materials such as soil, gravel or debris efficiently for effective material management." },
-    { src: "/images/concrete-pump.jpg", title: "Concrete Pump", description: "This machinery provides fast, precise transportation of concrete to hard-to-reach areas or elevated locations thereby optimizing construction efficiency." },
+    { src: "/images/asphalt-paver.jpg", title: "Asphalt Paver", description: "Used specifically in road building projects to evenly spread asphalt out over roadway surfaces for improved durability and a smooth driving experience for vehicles." },
+
     { src: "/images/soil-stabilizer.jpg", title: "Soil Stabilizer", description: "Engineered to strengthen and stabilize weak soil, this machine plays a pivotal role in providing safe construction foundations." },
     { src: "/images/dump-trucks.jpg", title: "Dump Truck", description: "With its ability to haul loose materials like soil or gravel quickly and effectively - such a truck plays a pivotal part in transport." },
     { src: "/images/trencher.jpg", title: "Trencher", description: "Ideal for digging narrow trenches used to lay utility lines such as water pipes, electrical cables or sewerage networks." }

@@ -10,11 +10,12 @@ const Aboutus = () => {
               className="relative w-full h-[35vh] md:h-[50vh] mt-5 overflow-hidden"
             >
               <Image
-                src="/images/about-us-main-1.png"
+                // src="/images/about-us-main-1.png"
+                src="/about.jpg"
                 alt="About us main image"
-                layout="fill"
+               width={1200} height={100}
                 objectFit="cover"
-                className="w-full"
+                
               />
             </div>
           </div>
@@ -26,7 +27,7 @@ const Aboutus = () => {
               Welcome to Shree Balaji Exim
             </h2>
             <p className="mb-4 text-customGray text-justify">
-            <span className='font-bold'>Shree Balaji EXIM</span>  - Building Excellence through the export of heavy construction machineries through out the world.
+            <span className='font-bold'>Shree Balaji Exim</span>  - Building Excellence through the export of heavy construction machineries through out the world.
             </p>
             <p className="mb-4 text-customGray text-justify">
             Shree Balaji Group founded in 1960 by Shri N. G. Banaginwar, swiftly rose to prominence as one of India's leading trading firms.In 1990, the business entered a new era under the visionary leadership of CEO Rammdas Banaginwar. 

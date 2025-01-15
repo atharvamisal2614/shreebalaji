@@ -13,8 +13,10 @@ function Navbar() {
             <Link href='/' >
                <Image src='/logo-home.png' width={200} height={200} alt="Logo" 
                 />
+             <p className="font-bold text-sm">A venture of Shree Balaji Group since 1960...</p>          
             </Link>
-                <nav className="md:ml-auto md:mr-auto flex flex-wrap text-lg items-center justify-center gap-6">
+                         
+                <nav className="md:ml-auto mt-5 md:mr-auto flex flex-wrap text-lg items-center justify-center gap-6">
                     <Link
                         href="/"
                         className={`mr-5 font-bold ${

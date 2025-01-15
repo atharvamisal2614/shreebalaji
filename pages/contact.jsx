@@ -117,20 +117,6 @@ const ContactUs = () => {
               Send
             </button>
           </form>
-          {/* {status && (
-            <p
-              className={`text-lg mt-4 ${status.includes("Submitting")
-                ? "text-black"
-                : status.includes("Successfully")
-                  ? "text-green-500"
-                  : "text-red-500"
-                }`}
-            >
-              {status}
-            </p>
-          )} */}
-
-
           {status && (
             <div className="text-lg mt-4 flex items-center space-x-2">
               {status.includes("Submitting") && (
@@ -158,7 +144,7 @@ const ContactUs = () => {
             </div>
             <div className="text-center">
               <h2 className="text-lg font-bold">Our Location</h2>
-              <p className="text-gray-600">801, IIEIM, World Trade Center, Kharadi, Pune.</p>
+              <p className="text-gray-600">801, Regus, Shree Balaji Exim, World Trade Center, Kharadi, Pune</p>
             </div>
           </div>
           <div className="flex flex-col items-center">
@@ -167,7 +153,7 @@ const ContactUs = () => {
             </div>
             <div className="text-center">
               <h2 className="text-lg font-bold ">Call Us</h2>
-              <Link href={'tel:+917499837102'} className='text-gray-600'>74998 37102</Link>
+              <Link href={'tel:+917499837102'} className='text-gray-600'>+91 74998 37102</Link>
             </div>
           </div>
           <div className="flex flex-col items-center">

@@ -1,12 +1,13 @@
 import Link from 'next/link';
 import React from 'react';
 const products = [
-  { id: 1, name: "Asphalt Paver", image: "/images/asphalt-paver.jpg" },
-  { id: 2, name: "Backhoe Loader", image: "/images/backhoe-loader.jpg" },
-  { id: 3, name: "Bulldozer", image: "/images/bulldozer.jpg" },
-  { id: 4, name: "Compactor", image: "/images/compactor.jpeg" },
-  { id: 5, name: "Concrete Mixer", image: "/images/concrete-mixer.jpg" },
-  { id: 6, name: "Crane", image: "/images/crane.jpeg" },
+
+  { id: 1, name: "JCB", image: "/images/JCB.jpg" },
+  { id: 2, name: "Bulldozer", image: "/images/bulldozer.jpg" },
+  { id: 3, name: "Compactor", image: "/images/compactor.jpeg" },
+  { id: 4, name: "Concrete Mixer", image: "/images/concrete-mixer.jpg" },
+  { id: 5, name: "Crane", image: "/images/crane.jpeg" },
+  { id: 6, name: "Asphalt Paver", image: "/images/asphalt-paver.jpg" },
 ];
 export default function Home() {
   return (
